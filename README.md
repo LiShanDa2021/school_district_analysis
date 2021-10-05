@@ -75,20 +75,20 @@ Second analysis:
 
 Again, the difference in reading scores is significant, a whole 8 points between the first and second analysis.
 
-Finally, I tested whether or not removing THS 9th graders would 
+Finally, I tested whether or not removing THS 9th graders would have an effect on scores by school type -- district or charter. THS is, of course, a charter school. Here are the results of the first and second analyses.
 
+First analysis:
 
+![old scores by school type](https://user-images.githubusercontent.com/87392984/136098689-51896ee3-b45e-4c21-8b3a-d2055bef9c35.png)
 
-THS is anomalous among the other high performing schools in that it has a higher budget
+Second analysis:
 
+![new scores by school type](https://github.com/LiShanDa2021/school_district_analysis/blob/main/resources/new%20schools%20by%20type.png?raw=true)
+
+Once again, the reading scores for THS's bracket have been altered significantly. When 9th grade THS students are included, the reading scores in THS's bracket are 4 points higher.
 
 ## Summary
-As THS 9th grade students make up only 1.2% of the district population (461 out of a student population of 39170), my hypothesis was that the effects of removing their scores would be small. 
+As THS 9th grade students make up only 1.2% of the district population (461 out of a student population of 39170), my hypothesis was that the effects of removing their scores would be small. Indeed, when it comes to Thomas High School's overall scores and position among the other schools, the effect is small. However, when looking at the district's overall performance, including the THS ninth grader's scores increased the overall passing percentage, slightly but noticeably. Moreover there were significant differences in the reading scores of the spending and size categories THS belonged to when the scores were analyzed by spending per student and school size. Finally, reading scores for charter schools -- the category THS belongs to -- were significantly higher when THS 9th graders were included. In conclusion, these results warrant further investigation into academic dishonesty at Thomas High School -- particularly in 9th grade reading scores.
 
-inconclusive
-warrants further investigation
 
-461 out of 39170
-mere 1.2%
-
-Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Note: I look forward to your feedback. I suspect I have made several errors in this assignment, and it would like help identifying them.
