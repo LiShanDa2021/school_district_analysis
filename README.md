@@ -19,7 +19,7 @@ Though pleased with my initial analysis, my client contacted me again to notify 
 ## Results of Second Analysis
 After running the analysis on the district schools excluding THS 9th graders, I compared data frames from the first and second analysis side by side. These were the results.
 
-* I was most interested in how Thomas High School's position in the list of top schools would be affected.
+I was most interested in how Thomas High School's position in the list of top schools would be affected.
 
 Here is a screenshot of the data frame from the first analysis displaying the top schools.
 ![first analysis top schools](https://github.com/LiShanDa2021/school_district_analysis/blob/main/resources/old%20top%20schools.png?raw=true)
@@ -29,7 +29,7 @@ And here are the top schools from the second analysis.
 
 As you can see, the scores including the 9th graders are indeed higher, but not enough to affect THS's position among the top schools. In fact, in order to see any difference, I had to display the data frames without formatiing the data. The scores would not have rounded differently.
 
-* Since removing 9th graders seemed to only have a small effect on THS's raw scores and position among top schools, I was doubtful it would have any effect at the district level. The effect was indeed small, though it may be meaningful. I have presented the results without formatting them because that is the only way to detect the difference.
+Since removing 9th graders seemed to only have a small effect on THS's raw scores and position among top schools, I was doubtful it would have any effect at the district level. The effect was indeed small, though it may be meaningful. I have presented the results without formatting them because that is the only way to detect the difference.
 
 First district summary:
 ![first district summary](https://github.com/LiShanDa2021/school_district_analysis/blob/main/resources/old%20district%20summary%20not%20rounded.png?raw=true)
@@ -39,7 +39,7 @@ Second district summary:
 
 In the first district summary, the percent of students passing both tests was just over 65%, in the second summary it is just under. It is a small difference, but it just may be significant when it comes to funding. After all, at 64, we round down to 60 and at 65 we round up to 70.
 
-* I next looked at whether or not removing THS 9th graders would have much effect on 9th graders' performance district wide.
+I next looked at whether or not removing THS 9th graders would have much effect on 9th graders' performance district wide.
 
 Here is a screenshot of the first analysis of 9th grade scores districtwide.
 
@@ -51,7 +51,7 @@ And here is a screenshot of the second analysis.
 
 While the scores with THS 9th graders factored out are indeed lower, they are only lower by a fraction of a percent.
 
-* I then looked at whether or not removing THS 9th graders would affect school performance by spending bracket. Note that THS is in the $630-644 spending bracket.
+I then looked at whether or not removing THS 9th graders would affect school performance by spending bracket. Note that THS is in the $630-644 spending bracket.
 
 These are the scores by spending bracket including THS 9th graders.
 
@@ -61,8 +61,25 @@ And these are the scores by spending excluding the THS 9th graders.
 
 ![second analysis scores by spending](https://github.com/LiShanDa2021/school_district_analysis/blob/main/resources/new%20school%20spending%20ranges.png?raw=true)
 
-Scores by school size
-Scores by school type
+When rounded to the nearest percentage point, the reading scores are a suspicious 7 points higher when THS 9th graders are included making the schools in the 2nd highest spending bracket appear to perform much better in reading than they would do otherwise.
+
+I next looked at how the new analysis would affect scores by school size bracket. Note that THS is a medium school.
+
+First analysis:
+
+![old scores by school size](https://user-images.githubusercontent.com/87392984/136095619-ee7094de-57d4-496d-83e6-b7120f358795.png)
+
+Second analysis:
+
+![new scores by school size](https://user-images.githubusercontent.com/87392984/136095989-b1d8a495-cf3e-4380-ab9f-667ba4406f02.png)
+
+Again, the difference in reading scores is significant, a whole 8 points between the first and second analysis.
+
+Finally, I tested whether or not removing THS 9th graders would 
+
+
+
+THS is anomalous among the other high performing schools in that it has a higher budget
 
 
 ## Summary
